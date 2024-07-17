@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.textdecor{
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    transition: 0.3s ease-in-out;
+}
+.textdecor:hover{
+    border-bottom: 1px solid #f52453;
+}
+.App{
+    padding: 60px 0 ;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cardImage{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    width: 555px;
+    height: 530px;
+}
+.cardImage h3{
+    font-size: 38px;
+}
+.img{
+    width: 247px;
+    height: 247px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.cardImage3{
+    width: 100%;
+}
+.cardImage3 .image3{
+    width: 270px;
+    height: 325px;
+    object-fit: cover;
+}
+.textCard{
+    padding: 30px;
+    background-color: #f2f2f2;
+    width: 270px;
+    height: 325px;
+}
+.discription{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.btn1{
+  color: #ffffff ;
+  background-color: #f52453 ;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  margin: 25px auto 0 0;
+  padding: 9px 31px 10px 30px;
+  transition: 0.3s ease-in-out;
+}
+.btn1:hover{
+    background-color: black;
+}
